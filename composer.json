@@ -1,0 +1,26 @@
+{
+    "require": {
+        "php": ">=5.5.9",
+
+	"webmozart/assert": "^1.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^2.4",
+        "bossa/phpspec2-expect": "^1.0",
+        "behat/behat": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Michał Marcinkowski",
+            "email": "michal.marcinkowski@lakion.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
